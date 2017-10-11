@@ -32,12 +32,4 @@ public class CorsConfig {
 		source.registerCorsConfiguration("/**", config);
 		return new CorsFilter(source);
 	}
-
-	// 注册自定义的过滤器【然后向Spring注入这个Bean就行了】
-	@Bean
-	public AccessFilter accessFilter() {
-
-		System.out.println("注册AccessFilter过滤器******");
-		return new AccessFilter();
-	}
 }
