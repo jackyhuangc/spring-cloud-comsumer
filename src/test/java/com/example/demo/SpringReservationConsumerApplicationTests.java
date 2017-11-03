@@ -26,5 +26,7 @@ public class SpringReservationConsumerApplicationTests {
 		// 主干，持续进行版本优化 V1.12
 		
 		// 分支，我增加了功能1
+		
+		// 分支，我增加了功能2
 	}
 }
