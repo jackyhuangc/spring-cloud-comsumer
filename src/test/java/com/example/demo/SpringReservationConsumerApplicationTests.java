@@ -19,5 +19,7 @@ public class SpringReservationConsumerApplicationTests {
 		// 主干测试2
 		
 		// 主干增加版本 V1.11
+		
+		// 分支修改 V1.12
 	}
 }
