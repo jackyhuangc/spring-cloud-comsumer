@@ -13,5 +13,9 @@ public class SpringReservationConsumerApplicationTests {
 	public void contextLoads() {
 		
 		// 这是测试的分支数据，测试的分支数据
+
+		// 这是主干的测试
+		
+		// 主干测试2
 	}
 }
