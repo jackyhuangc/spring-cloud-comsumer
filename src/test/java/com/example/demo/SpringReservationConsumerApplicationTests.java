@@ -33,4 +33,9 @@ public class SpringReservationConsumerApplicationTests {
 		// 分支，我增加了功能2
 
 	}
+	
+	public void test2()
+	{
+		// 主干测试方法
+	}
 }
