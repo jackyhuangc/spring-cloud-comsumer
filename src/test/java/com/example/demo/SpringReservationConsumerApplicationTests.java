@@ -11,5 +11,7 @@ public class SpringReservationConsumerApplicationTests {
 
 	//@Test
 	public void contextLoads() {
+		
+		// 这是主干的测试
 	}
 }
