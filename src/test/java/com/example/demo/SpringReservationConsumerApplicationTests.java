@@ -14,5 +14,6 @@ public class SpringReservationConsumerApplicationTests {
 		
 		// 这是主干的测试
 		
+		// 主干测试2
 	}
 }
