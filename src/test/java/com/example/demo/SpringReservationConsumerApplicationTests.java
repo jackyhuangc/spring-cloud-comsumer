@@ -25,13 +25,21 @@ public class SpringReservationConsumerApplicationTests {
 
 		// 主干，持续进行版本优化 V1.12
 		
-
 		// 主干，我优化功能0
 
 		// 分支，我增加了功能1
 		
 		// 分支，我增加了功能2
-
+	}
+	
+	public void test()
+	{
+		// 分支测试方法
+	}
+	
+	public void test3()
+	{
+		// 分支测试方法3
 	}
 	
 	public void test2()
