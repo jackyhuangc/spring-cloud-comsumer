@@ -36,4 +36,9 @@ public class SpringReservationConsumerApplicationTests {
 	{
 		// 分支测试方法
 	}
+	
+	public void test3()
+	{
+		// 分支测试方法3
+	}
 }
