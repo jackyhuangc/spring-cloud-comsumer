@@ -11,5 +11,7 @@ public class SpringReservationConsumerApplicationTests {
 
 	//@Test
 	public void contextLoads() {
+		
+		// 这是测试的分支数据，测试的分支数据
 	}
 }
