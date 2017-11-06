@@ -9,7 +9,8 @@
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n
 			</pattern>
-			<charset>UTF-8</charset>
+			<!-- GBK中文编码 -->
+			<charset>GBK</charset>
 		</encoder>
 	</appender>
 	<appender name="FILE"

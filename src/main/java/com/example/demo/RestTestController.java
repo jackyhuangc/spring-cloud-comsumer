@@ -13,6 +13,9 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 @RestController
 public class RestTestController {
 
+	@Autowired
+	private KafkaReceiver receiver;
+	
 	// 默认是支持负载的？？？
 	@Autowired
 	private RestTemplate restTemplate;
@@ -50,6 +53,12 @@ public class RestTestController {
 	String index() {
 		
 		return "fffffffffffindex";
+	}
+	
+	@RequestMapping("/getkafka")
+	String getkafka() {
+		
+		return KafkaReceiver._Vote;
 	}
 	
 	public String hiError(@PathVariable String name) {
