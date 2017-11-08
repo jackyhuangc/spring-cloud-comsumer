@@ -55,7 +55,7 @@ public class SpringReservationConsumerApplication {
 
 	//@Primary
 	@Bean
-	@LoadBalanced// 如果不加，将会报java.net.UnknownHostException错误
+	@LoadBalanced// 将RestTemplate的bean标记为LoadBalancerClient，用作负载均衡，如果不加，将会报java.net.UnknownHostException错误
 	RestTemplate restTemplate() {
 		
 		// 可以自定义负载策略
