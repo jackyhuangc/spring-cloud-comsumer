@@ -44,6 +44,8 @@ public class AccessFilter extends ZuulFilter {
         if(accessToken == null) {  
             //log.warn("access token is empty");  
             //过滤该请求，不往下级服务去转发请求，到此结束  
+        	
+        	
             ctx.setSendZuulResponse(false);  
             ctx.setResponseStatusCode(401);  
             ctx.setResponseBody("{\"result\":\"accessToken为空!\"}");              
